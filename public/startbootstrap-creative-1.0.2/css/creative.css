@@ -485,3 +485,8 @@ body {
 .project-border {
   border-radius: 20px;
 }
+
+.project-description {
+  padding-left: 10px;
+  padding-right: 10px;
+}
