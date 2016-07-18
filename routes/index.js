@@ -7,7 +7,7 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/resume', function(req, res) {
-  var file = 'public/assets/ResumeDCTabion.pdf';
+  var file = __dirname + '/../public/assets/ResumeDCTabion.pdf';
   res.download(file);
 });
 
