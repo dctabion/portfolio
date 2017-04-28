@@ -11,8 +11,5 @@ router.get('/resume', function(req, res) {
   res.download(file);
 });
 
-router.get('/phone', function(req, res) {
-  res.render('phone', { title: 'Phone'});
-});
 
 module.exports = router;
